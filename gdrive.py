@@ -15,6 +15,7 @@ os.system('python3 gen_sa_accounts.py ' + download + projectid)
 
 os.system('rm credentials.json')
 os.system('rm token_sa.pickle')
+os.system('rm requirements.txt')
 
 os.system('wget -P accounts https://javbabes.me/sagen/emails.py')
 os.system('python3 ./accounts/emails.py')
