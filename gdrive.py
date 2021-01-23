@@ -1,7 +1,7 @@
 import os
 os.system('wget https://raw.githubusercontent.com/modbots/backen/main/requirements.txt')
 os.system('pip3 install -r requirements.txt')
-os.system('https://raw.githubusercontent.com/modbots/backen/main/gen_sa_accounts.py')
+os.system('wget https://raw.githubusercontent.com/modbots/backen/main/gen_sa_accounts.py')
 os.system('python3 gen_sa_accounts.py')
 projectid = input("Enter Your Project id = ")
 enable = " --enable-services "
